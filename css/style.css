@@ -1,0 +1,116 @@
+body{
+  color:#40514E;
+  margin: 0;
+  text-align: center;
+}
+h1{
+   color: #66BFBF;
+   font-size:5.62rem;
+   margin: 50px auto 0 auto;
+}
+h2{
+  margin-bottom: 10px;
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+h3{
+ color:#11999E;
+}
+
+.top-conatiner{
+  padding-top: 100px;
+  background: #E4F9F5;
+}
+
+a{
+  color: #11999E;
+  margin:10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:#EAF6F6;
+}
+.email{
+  color: #11999E;
+  margin:10px 20px;
+  text-decoration: none;
+}
+
+.copyright{
+color:#EAF6F6;
+font-size: 0.9rem;
+}
+
+.bottom-container{
+  background:#66BFBF;
+  padding:50px 0 20px;
+}
+
+.profile{
+  margin: 100px 0;
+}
+
+
+.pro{
+  text-decoration: underline;
+}
+p{
+    line-height: 2;
+}
+hr{
+  border:dotted #EAF6F6;
+  border-bottom: none;
+  width: 4%;
+}
+.intro{
+  width:30%;
+  margin:auto;
+}
+.top-cloud{
+  position: absolute;
+  right:200px;
+  top:40px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 100px;
+}
+.skil-row{
+  text-align: left;
+  width:50%;
+  margin:100px auto  100px auto;
+
+}
+.image-1{
+  width:150px;
+}
+.computer{
+  float:left;
+  margin-right: 30px;
+  border-radius:360px;
+  width: 25%;
+}
+.react{
+  float:right;
+  margin-left: 30px;
+  border-radius:360px;
+  width: 25%;
+}
+.database{
+  margin-right: 30px;
+  float:left;
+  width: 25%;
+}
+
+.contact-me{
+  width: 40%;
+  margin:40px auto 60px;
+}
+@media(max-width:1028px){
+  .top-container{
+    position: static;
+    text-align: center;
+  }
+}
